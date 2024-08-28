@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Maquiagem</title>
+    <style>
+        body {
+            font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+            
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff1493;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 3px;
+        }
+
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 50px 10px;
+            max-width: 1300px;
+            margin: 0 auto;
+        }
+
+        .produto {
+            background-color: #fff;
+            width: 280px;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .produto:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .produto img {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .produto h3 {
+            margin: 15px 0;
+            font-size: 1.4em;
+            color: #ff1493;
+        }
+
+        .produto p {
+            padding: 0 15px;
+            font-size: 1em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .produto button {
+            background-color: #ff1493;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-bottom: 15px;
+        }
+
+        .produto button:hover {
+            background-color: #ff69b4;
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Loja de Maquiagem</h1>
+</header>
+
+<section class="produtos">
+    <div class="produto">
+        <img src="https://example.comjpg/base." alt="Base de Alta Cobertura">
+        <a href="https://www.sephora.com.br/busca/?q=Base%20de%20Alta%20Cobertura" >
+        
+        <h3>Base de Alta Cobertura</h3>
+        <p>Base líquida com acabamento perfeito para todos os tipos de pele. Cobertura duradoura e natural.</p>
+        <button>Comprar Agora</button>
+    </div>
+</a>
+    <div class="produto">
+        <img src="https://example.com/batom.jpg" alt="Batom Matte Vermelho">
+        <a href="https://www.sephora.com.br/busca/?q=Batom%20Matte%20-%20Vermelho%20Clássico">
+       
+        <h3>Batom Matte - Vermelho Clássico</h3>
+        <p>Batom de longa duração com acabamento matte. Vermelho vibrante que combina com todos os tons de pele.</p>
+        <button>Comprar Agora</button>
+    </a>
+    
+    </div>
+
+    <div class="produto">
+        <img src="https://example.com/sombra.jpg" alt="Paleta de Sombras Neutras">
+        <a href="https://www.sephora.com.br/busca/?q=Paleta%20de%20Sombras%20Neutras" >
+        <h3>Paleta de Sombras Neutras</h3>
+        <p>Paleta versátil com tons neutros perfeitos para o dia a dia ou para um look glamouroso.</p>
+        <button>Comprar Agora</button>
+    </div>
+</a>
+
+    <div class="produto">
+        <img src="https://example.com/mascara.jpg" alt="Máscara de Cílios Volume">
+        <a href="https://www.sephora.com.br/busca/?q=mascara%20de%20cilios&origin=autocomplete&p=mascara&ranking=2&typeclick=1&ac_pos=header" >
+        <h3>Máscara de Cílios Volume Intenso</h3>
+        <p>Dê volume aos seus cílios com essa máscara poderosa que dura o dia todo sem borrar.</p>
+        <button>Comprar Agora</button>
+    </div>
+</a>
+
+    <div class="produto">
+        <img src="https://example.com/po.jpg" alt="Pó Compacto Translúcido">
+        <a href="https://www.sephora.com.br/busca/?q=Pó%20Compacto%20Translúcido" >
+        <h3>Pó Compacto Translúcido</h3>
+        <p>Pó compacto que proporciona um acabamento suave e mantém a pele livre de oleosidade.</p>
+        <button>Comprar Agora</button>
+    </div>
+</a>
+</section>
+
+
+
+</body>
+</html>
